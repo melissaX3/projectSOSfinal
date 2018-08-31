@@ -1,0 +1,49 @@
+nav {
+  background-color: salmon;
+  display: flex;
+  box-sizing: content-box;
+  justify-content: center;
+}
+.row {
+  height: auto;
+  border: solid 2px black;
+}
+
+.primary {
+  background-color: black;
+  position: relative;
+}
+.primary img {
+  max-width: 100%;
+}
+
+.side div {
+  text-align: center;
+}
+
+#time, #message {
+  padding: 40px;
+  font-size: 30px;
+  height: 40%;
+}
+
+#potus {
+  position: absolute;
+  right: 10px;
+  bottom: 18px;
+  width: 25px;
+  height: 110px;
+  background: transparent;
+  border: none
+}
+
+.bottom {
+  position: relative;
+  height: 10%;
+}
+
+#start {
+  position: absolute;
+  bottom: 0;
+  left: 180px;
+}
